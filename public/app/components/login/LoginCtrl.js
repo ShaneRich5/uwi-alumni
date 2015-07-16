@@ -29,6 +29,8 @@
                 function loginSuccess(response) {
                     var user = JSON.stringify(response.data.user);
 
+                    $log.log(user);
+
                     localStorage.setItem('user', user);
 
                     $rootScope.authenticated = true;

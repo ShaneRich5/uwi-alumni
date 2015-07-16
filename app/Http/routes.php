@@ -25,6 +25,7 @@ Route::group(['prefix' => 'api'], function()
     Route::get('auth', 'AuthCtrl@getAuthenticatedUser');
 
     Route::resource('users', 'UsersCtrl');
+    Route::resource('messages', 'MessagesCtrl');
 });
 
 Route::group(['prefix' => 'app'], function() {

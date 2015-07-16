@@ -18,7 +18,7 @@
                 };
 
                 // configures Satellizer to retrieve tokens from this route
-                $authProvider.loginUrl = '/login';
+                $authProvider.loginUrl = 'api/login';
 
                 $stateProvider
                     .state('login', {

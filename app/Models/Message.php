@@ -9,6 +9,10 @@ class Message extends Model
 {
     use Messageable;
 
+    protected $table = 'messages';
+
+    protected $fillable = ['content'];
+
     public function conversation()
     {
         return $this->belongsTo('App\Models\Conversation');

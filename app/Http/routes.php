@@ -25,7 +25,14 @@ Route::group(['prefix' => 'api'], function()
     Route::get('auth', 'AuthCtrl@getAuthenticatedUser');
 
     Route::resource('users', 'UsersCtrl');
-    Route::resource('messages', 'MessagesCtrl');
+
+    /**
+     * Guarded routes
+     */
+    Route::group(['middleware' => 'jwt.auth'], function()
+    {
+        Route::resource('messages', 'MessagesCtrl');
+    });
 });
 
 Route::group(['prefix' => 'app'], function() {

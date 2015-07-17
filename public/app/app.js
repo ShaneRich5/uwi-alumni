@@ -8,13 +8,16 @@
         .module('uwiaa', [
             'satellizer',
             'ui.router',
-            'ngCookies'
+            'ngCookies',
+            'textAngular'
         ])
         .config(['$stateProvider', '$authProvider', '$urlRouterProvider', '$httpProvider', '$provide',
             function($stateProvider, $authProvider, $urlRouterProvider, $httpProvider, $provide) {
 
                 // configures Satellizer to retrieve tokens from this route
                 $authProvider.loginUrl = 'api/login';
+                $authProvider.signupUrl = 'api/register';
+
 
                 // default state
                 $urlRouterProvider.otherwise('login');
@@ -32,8 +35,24 @@
                     })
                     .state('users', {
                         url: '/users',
-                        templateUrl: 'app/components/user/users.html',
+                        templateUrl: 'app/components/users/partials/usersList.html',
                         controller: 'UserCtrl'
+                    })
+                    .state('messages_list', {
+                        url: '/messages',
+                        templateUrl: 'app/components/messages/partials/messageList.html'
+                    })
+                    .state('messages_new', {
+                        url: '/messages/new',
+                        templateUrl: 'app/components/messages/partials/messageNew.html'
+                    })
+                    .state('posts_list', {
+                        url: '/posts',
+                        templateUrl: 'app/components/posts/partials/postsList.html'
+                    })
+                    .state('posts_new', {
+                        url: '/posts/new',
+                        templateUrl: 'app/components/posts/partials/postsNew.html'
                     });
 
                 // Setup for the $httpInterceptor

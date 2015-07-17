@@ -2,12 +2,14 @@
 <html ng-app="uwiaa">
 <head>
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel='stylesheet' href='/bower_components/textAngular/dist/textAngular.css'>
     <title>UWIAA</title>
 </head>
 <body>
 
     <!-- main content -->
-    <div class="container">
+    <div class="wrapper">
         <div ui-view>
             <h1>Loading...</h1>
         </div>
@@ -22,12 +24,20 @@
     <script type="text/javascript" src="bower_components/angular-resource/angular-resource.min.js"></script>
     <script type="text/javascript" src="bower_components/satellizer/satellizer.min.js"></script>
 
+    <script src='bower_components/textAngular/dist/textAngular-rangy.min.js'></script>
+    <script src='bower_components/textAngular/dist/textAngular-sanitize.min.js'></script>
+    <script src='bower_components/textAngular/dist/textAngular.min.js'></script>
+
     <!-- Application Scripts -->
     <script type="text/javascript" src="app/app.js"></script>
 
     <!-- Controllers -->
     <script type="text/javascript" src="app/components/login/LoginCtrl.js"></script>
     <script type="text/javascript" src="app/components/register/RegisterCtrl.js"></script>
-    <script type="text/javascript" src="app/components/user/UserCtrl.js"></script>
+    <script type="text/javascript" src="app/components/users/UserListCtrl.js"></script>
+
+    <!-- message -->
+    <script type="text/javascript" src="app/components/messages/MessageListCtrl.js"></script>
+    <script type="text/javascript" src="app/components/messages/MessageNewCtrl.js"></script>
 </body>
 </html>

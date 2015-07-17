@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
-use App\Http\Controllers\Controller;
 use Tymon\JWTAuth\Exceptions\JWTException;
 use Tymon\JWTAuth\Exceptions\TokenExpiredException;
 use Tymon\JWTAuth\Facades\JWTAuth;
@@ -14,12 +14,28 @@ class AuthCtrl extends Controller
 {
     function __construct()
     {
-        $this->middleware('jwt.auth', ['except' => ['login'], ['register']]);
+        $this->middleware('jwt.auth', ['except' => ['login', 'register']]);
     }
 
-    public function register()
+    public function register(Requests\CreateRegistrationRequest $request)
     {
-        return response()->json("Register Ok");
+        $credentials = $request->only(['email', 'password']);
+
+        $user = User::create($credentials);
+
+        if (! $user) {
+            return response()->json(['error' => 'unable_to_create_user']);
+        }
+
+        try {
+            if (! $token = JWTAuth::fromUser($user)) {
+                return response()->json(['error' => 'invalid_credentials'], 401);
+            }
+        } catch (JWTException $e) {
+            return response()->json(['error' => 'could_not_create_token'], 500);
+        }
+
+        return response()->json(compact('token'));
     }
 
     public function login(Request $request)
@@ -28,7 +44,7 @@ class AuthCtrl extends Controller
 
         try {
             if (! $token = JWTAuth::attempt($credentials)) {
-                return response()->json(['error' => 'invalid credentials'], 401);
+                return response()->json(['error' => 'invalid_credentials'], 401);
             }
         } catch (JWTException $e) {
             return response()->json(['error' => 'could_not_create_token'], 500);

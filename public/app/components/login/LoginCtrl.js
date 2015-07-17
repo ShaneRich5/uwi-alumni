@@ -22,7 +22,7 @@
                     $scope.loginErrorText = error.data.error;
                 };
 
-                var retrievedUserSuccess = function() {
+                var retrievedUserSuccess = function(response) {
                     return $http.get('api/auth');
                 };
 

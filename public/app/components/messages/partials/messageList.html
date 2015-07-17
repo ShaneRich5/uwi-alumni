@@ -1,0 +1,7 @@
+<div class="container">
+    <h1 ng-hide="messages.length">No new messages</h1>
+
+    <ul class="list-group" ng-repeat="message in messages">
+        <li class="list-group-item">{{ message.name }}</li>
+    </ul>
+</div>

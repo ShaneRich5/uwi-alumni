@@ -20,11 +20,12 @@ Route::group(['prefix' => 'api'], function()
     /**
      * Authentication routes
      */
-    Route::post('login', 'AuthCtrl@login');
     Route::post('register', 'AuthCtrl@register');
+    Route::post('login', 'AuthCtrl@login');
     Route::get('auth', 'AuthCtrl@getAuthenticatedUser');
 
     Route::resource('users', 'UsersCtrl');
+    Route::resource('posts', 'PostCtrl');
 
     /**
      * Guarded routes
@@ -41,13 +42,12 @@ Route::group(['prefix' => 'app'], function() {
     });
 });
 
-Route::group(['prefix' => 'app'], function(){
-    Route::get('{path?}', function(\Request $request)
-    {
-        return redirect('/');
-//        return File::get(public_path() . '/app/' . $request->path());
-    });
-});
+//Route::group(['prefix' => 'app'], function(){
+//    Route::get('{path?}', function(\Request $request)
+//    {
+//        return redirect('/');
+//    });
+//});
 
 //Route::any('{path?}', function()
 //{

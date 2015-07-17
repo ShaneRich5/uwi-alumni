@@ -23,6 +23,11 @@
                 $urlRouterProvider.otherwise('login');
 
                 $stateProvider
+                    .state('/', {
+                        url: '/',
+                        templateUrl: 'app/components/home/home.html',
+                        controller: 'HomeCtrl'
+                    })
                     .state('login', {
                         url: '/login',
                         templateUrl: 'app/components/login/login.html',
@@ -36,23 +41,27 @@
                     .state('users', {
                         url: '/users',
                         templateUrl: 'app/components/users/partials/usersList.html',
-                        controller: 'UserCtrl'
+                        controller: 'UserListCtrl'
                     })
                     .state('messages_list', {
                         url: '/messages',
-                        templateUrl: 'app/components/messages/partials/messageList.html'
+                        templateUrl: 'app/components/messages/partials/messageList.html',
+                        controller: 'MessageListCtrl'
                     })
                     .state('messages_new', {
-                        url: '/messages/new',
-                        templateUrl: 'app/components/messages/partials/messageNew.html'
+                        url: '/messages/create',
+                        templateUrl: 'app/components/messages/partials/messageNew.html',
+                        controller: 'MessageNewCtrl'
                     })
                     .state('posts_list', {
                         url: '/posts',
-                        templateUrl: 'app/components/posts/partials/postsList.html'
+                        templateUrl: 'app/components/posts/partials/postsList.html',
+                        controller: 'PostListCtrl'
                     })
                     .state('posts_new', {
                         url: '/posts/new',
-                        templateUrl: 'app/components/posts/partials/postsNew.html'
+                        templateUrl: 'app/components/posts/partials/postsNew.html',
+                        controller: 'PostNewCtrl'
                     });
 
                 // Setup for the $httpInterceptor

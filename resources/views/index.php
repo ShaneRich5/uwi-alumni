@@ -36,6 +36,13 @@
     <script type="text/javascript" src="app/components/register/RegisterCtrl.js"></script>
     <script type="text/javascript" src="app/components/users/UserListCtrl.js"></script>
 
+    <!-- Pages -->
+    <script type="text/javascript" src="app/components/home/HomeCtrl.js"></script>
+
+    <!-- Posts -->
+    <script type="text/javascript" src="app/components/posts/PostListCtrl.js"></script>
+    <script type="text/javascript" src="app/components/posts/PostNewCtrl.js"></script>
+
     <!-- message -->
     <script type="text/javascript" src="app/components/messages/MessageListCtrl.js"></script>
     <script type="text/javascript" src="app/components/messages/MessageNewCtrl.js"></script>

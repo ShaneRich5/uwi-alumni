@@ -47,6 +47,7 @@
     <!-- Posts -->
     <script type="text/javascript" src="app/components/posts/PostListCtrl.js"></script>
     <script type="text/javascript" src="app/components/posts/PostNewCtrl.js"></script>
+    <script type="text/javascript" src="app/components/posts/PostShowCtrl.js"></script>
 
     <!-- Messages -->
     <script type="text/javascript" src="app/components/messages/MessageListCtrl.js"></script>

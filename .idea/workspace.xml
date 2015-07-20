@@ -6,11 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6e92e30-8ad1-44e6-9570-f110e9b3016a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/components/posts/PostShowCtrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/components/posts/partials/postsShow.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PostCtrl.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostCtrl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/components/posts/PostListCtrl.js" afterPath="$PROJECT_DIR$/public/app/components/posts/PostListCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/components/posts/PostNewCtrl.js" afterPath="$PROJECT_DIR$/public/app/components/posts/PostNewCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/app.js" afterPath="$PROJECT_DIR$/public/app/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index.php" afterPath="$PROJECT_DIR$/resources/views/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/components/posts/partials/postsList.html" afterPath="$PROJECT_DIR$/public/app/components/posts/partials/postsList.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="uwi-alumni.iws" />
@@ -56,70 +57,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PostCtrl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostCtrl.php">
+      <file leaf-file-name="PostShowCtrl.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/app/components/posts/PostShowCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0" vertical-offset="270" max-vertical-offset="2286">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.62566847" vertical-offset="0" max-vertical-offset="486">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
               <folding>
-                <element signature="e#40#60#0#PHP" expanded="true" />
+                <element signature="e#0#39#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uwiaa.posts" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/23ba8b62/5d1b3729-f9f3-4754-823e-c3c598545f04/uwiaa..posts">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostListCtrl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/components/posts/PostListCtrl.js">
+      <file leaf-file-name="PostCtrl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostCtrl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="93" max-vertical-offset="576">
-              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="postsList.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/components/posts/partials/postsList.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="252">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="postsNew.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/components/posts/partials/postsNew.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.3333333" vertical-offset="54" max-vertical-offset="450">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostNewCtrl.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/app/components/posts/PostNewCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40166205" vertical-offset="161" max-vertical-offset="738">
-              <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+            <state vertical-scroll-proportion="-4.6666665" vertical-offset="1278" max-vertical-offset="2322">
+              <caret line="78" column="6" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
               <folding>
-                <element signature="e#0#39#0" expanded="false" />
+                <element signature="e#40#60#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,11 +84,21 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="774" max-vertical-offset="2826">
-              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="2916">
+              <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
               <folding>
                 <element signature="e#0#39#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="postsList.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/app/components/posts/partials/postsList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="252">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -145,8 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/app/components/users/users.html" />
-        <option value="$PROJECT_DIR$/public/app/components/user/users.html" />
         <option value="$PROJECT_DIR$/public/app/components/user/UserCtrl.js" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/config/app.php" />
@@ -182,20 +146,22 @@
         <option value="$PROJECT_DIR$/public/app/components/home/HomeCtrl.js" />
         <option value="$PROJECT_DIR$/public/app/components/messages/partials/messageNew.html" />
         <option value="$PROJECT_DIR$/public/app/components/users/UserListCtrl.js" />
-        <option value="$PROJECT_DIR$/public/app/components/posts/partials/postsList.html" />
         <option value="$PROJECT_DIR$/public/app/shared/navbar/navbar.js" />
         <option value="$PROJECT_DIR$/public/app/shared/navbar/navbar.html.css" />
         <option value="$PROJECT_DIR$/public/app/components/about/about.html" />
         <option value="$PROJECT_DIR$/public/app/components/about/AboutCtrl.js" />
-        <option value="$PROJECT_DIR$/public/app/app.js" />
-        <option value="$PROJECT_DIR$/resources/views/index.php" />
         <option value="$PROJECT_DIR$/public/app/shared/navbar/NavbarCtrl.js" />
         <option value="$PROJECT_DIR$/public/app/shared/navbar/navbar.html" />
         <option value="$PROJECT_DIR$/public/app/components/login/login.html" />
         <option value="$PROJECT_DIR$/public/app/components/posts/partials/postsNew.html" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PostCtrl.php" />
         <option value="$PROJECT_DIR$/public/app/components/posts/PostListCtrl.js" />
         <option value="$PROJECT_DIR$/public/app/components/posts/PostNewCtrl.js" />
+        <option value="$PROJECT_DIR$/public/app/app.js" />
+        <option value="$PROJECT_DIR$/public/app/components/posts/partials/postsShow.html" />
+        <option value="$PROJECT_DIR$/resources/views/index.php" />
+        <option value="$PROJECT_DIR$/public/app/components/posts/partials/postsList.html" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PostCtrl.php" />
+        <option value="$PROJECT_DIR$/public/app/components/posts/PostShowCtrl.js" />
       </list>
     </option>
   </component>
@@ -734,7 +700,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../uwiaa-old" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="PostNeC&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/components/posts/PostNewCtrl.js&#10;postCtrl&#9;null&#9;null&#10;index&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/resources/views/index.php&#10;app&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/app.js&#10;in&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/resources/views/index.php&#10;PostCtr&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Http/Controllers/PostCtrl.php&#10;PostN&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/components/posts/partials/postsNew.html&#10;route&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Http/routes.php&#10;index.&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/resources/views/index.php&#10;app.js&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/app.js&#10;inde&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/resources/views/index.php&#10;Commen&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Comment.php&#10;create_comm&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/database/migrations/2015_07_17_040929_create_comments_table.php&#10;Post&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Post.php&#10;User&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Models/User.php&#10;App\User&#9;null&#9;null&#10;Eloquen&#9;null&#9;null&#10;register&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/components/register/register.html&#10;LoginC&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/components/login/LoginCtrl.js&#10;RegisterC&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/components/register/RegisterCtrl.js&#10;Convers&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Models/Conversation.php&#10;routes&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Http/routes.php&#10;JWT&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/config/jwt.php" />
+    <property name="SearchEverywhereHistoryKey" value="Post&#9;null&#9;null&#10;postlis&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/components/posts/partials/postsList.html&#10;app&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/app.js&#10;ind&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/resources/views/index.php&#10;PostNeC&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/components/posts/PostNewCtrl.js&#10;postCtrl&#9;null&#9;null&#10;index&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/resources/views/index.php&#10;in&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/resources/views/index.php&#10;PostCtr&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Http/Controllers/PostCtrl.php&#10;PostN&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/components/posts/partials/postsNew.html&#10;route&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Http/routes.php&#10;index.&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/resources/views/index.php&#10;app.js&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/app.js&#10;inde&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/resources/views/index.php&#10;Commen&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Comment.php&#10;create_comm&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/database/migrations/2015_07_17_040929_create_comments_table.php&#10;User&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Models/User.php&#10;App\User&#9;null&#9;null&#10;Eloquen&#9;null&#9;null&#10;register&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/components/register/register.html&#10;LoginC&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/components/login/LoginCtrl.js&#10;RegisterC&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/components/register/RegisterCtrl.js&#10;Convers&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Models/Conversation.php&#10;routes&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Http/routes.php&#10;JWT&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/config/jwt.php" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="FullScreen" value="false" />
     <property name="options.lastSelected" value="configurable.group.tools" />
@@ -806,7 +772,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957393" sideWeight="0.50061053" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32912534" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912534" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.49373433" sideWeight="0.4993895" order="3" side_tool="false" content_ui="tabs" />
@@ -865,20 +831,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_07_16_141800_create_conversation_user_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.333333" vertical-offset="0" max-vertical-offset="648">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Conversation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="504">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MessagesCtrl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4852941" vertical-offset="0" max-vertical-offset="1620">
@@ -1175,14 +1127,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27197802" vertical-offset="324" max-vertical-offset="1098">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/app/components/login/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4311377" vertical-offset="0" max-vertical-offset="522">
@@ -1204,16 +1148,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostCtrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0" vertical-offset="270" max-vertical-offset="2286">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#60#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/app/components/posts/PostListCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="93" max-vertical-offset="576">
@@ -1222,36 +1156,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/components/posts/partials/postsList.html">
+    <entry file="file://$PROJECT_DIR$/public/app/components/posts/PostNewCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="252">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/components/posts/partials/postsNew.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3333333" vertical-offset="54" max-vertical-offset="450">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="2826">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.40166205" vertical-offset="161" max-vertical-offset="738">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/components/posts/PostNewCtrl.js">
+    <entry file="file://$PROJECT_DIR$/public/app/components/posts/partials/postsShow.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40166205" vertical-offset="161" max-vertical-offset="738">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.15561959" vertical-offset="0" max-vertical-offset="347">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/components/posts/partials/postsNew.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6666665" vertical-offset="54" max-vertical-offset="450">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24550898" vertical-offset="602" max-vertical-offset="1116">
+          <caret line="38" column="77" selection-start-line="38" selection-start-column="77" selection-end-line="38" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostCtrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6666665" vertical-offset="1278" max-vertical-offset="2322">
+          <caret line="78" column="6" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
+          <folding>
+            <element signature="e#40#60#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="2916">
+          <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/components/posts/partials/postsList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="252">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/components/posts/PostShowCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62566847" vertical-offset="0" max-vertical-offset="486">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>

@@ -3,7 +3,7 @@
         <h1>Posts <small ng-hide="posts.length">No new posts</small></h1>
     </div>
     <ul class="list-group" ng-repeat="post in posts">
-        <li class="list-group-item">{{ post.title }}</li>
+        <li class="list-group-item"><a href="#" ui-sref="posts_show({ postId: {{ post.id }} })">{{ post.title }}</a></li>
     </ul>
     <a class="btn btn-default" ui-sref="posts_new">Create</a>
 </div>

@@ -67,6 +67,11 @@
                         url: '/posts/new',
                         templateUrl: 'app/components/posts/partials/postsNew.html',
                         controller: 'PostNewCtrl'
+                    })
+                    .state('posts_show', {
+                        url: '/posts/:postId',
+                        templateUrl: 'app/components/posts/partials/postsShow.html',
+                        controller: 'PostShowCtrl'
                     });
 
                 // Setup for the $httpInterceptor

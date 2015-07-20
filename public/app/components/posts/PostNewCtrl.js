@@ -25,6 +25,7 @@
                 function onPostSave(response){
                     $log.log('success');
                     $log.log(response);
+                    $state.go('posts_list');
                 }
 
                 function onError(error){

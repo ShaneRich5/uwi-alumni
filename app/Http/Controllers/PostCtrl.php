@@ -25,7 +25,7 @@ class PostCtrl extends Controller
      */
     public function index()
     {
-        return response()->json(Post::all());
+        return response()->json(Post::all()->toArray());
     }
 
     /**
@@ -33,35 +33,9 @@ class PostCtrl extends Controller
      *
      * @return Response
      */
-    public function create(Requests\CreatePostRequest $request)
+    public function create()
     {
-        return response()->json($request->only('title', 'body'));
 
-//        try {
-//            if (! $user = JWTAuth::parseToken()->authenticate()) {
-//                return response()->json(['user_not_found'], 404);
-//            }
-//        } catch (TokenExpiredException $e) {
-//
-//            return response()->json(['token_expired'], $e->getStatusCode());
-//
-//        } catch (TokenInvalidException $e) {
-//
-//            return response()->json(['token_invalid'], $e->getStatusCode());
-//
-//        } catch (JWTException $e) {
-//
-//            return response()->json(['token_absent'], $e->getStatusCode());
-//
-//        }
-//
-//        $post = $user->posts()->save($request->only(['title', 'body']));
-//
-//        if (! $post) {
-//            return response()->json(['unable_to_create_post']);
-//        }
-//
-//        return $post->toJson();
     }
 
     /**

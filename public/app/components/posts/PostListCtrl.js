@@ -14,7 +14,8 @@
                     .error(onError);
 
                 function onPostsLoaded(res){
-                    $log.log(res.data);
+                    $log.log(res);
+                    $scope.posts = res;
                 }
 
                 function onError(error){

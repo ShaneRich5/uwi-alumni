@@ -23,10 +23,15 @@
                 $urlRouterProvider.otherwise('login');
 
                 $stateProvider
-                    .state('/', {
+                    .state('home', {
                         url: '/',
                         templateUrl: 'app/components/home/home.html',
                         controller: 'HomeCtrl'
+                    })
+                    .state('about', {
+                        url: '/about',
+                        templateUrl: 'app/components/about/about.html',
+                        controller: 'AboutCtrl'
                     })
                     .state('login', {
                         url: '/login',

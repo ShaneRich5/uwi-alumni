@@ -16,8 +16,7 @@
                 //}
 
                 $scope.submit = function(post){
-                    $log.log(post);
-                    $http.post('api/posts/create', post)
+                    $http.post('api/posts', post)
                         .success(onPostSave)
                         .error(onError);
 
@@ -25,7 +24,7 @@
 
                 function onPostSave(response){
                     $log.log('success');
-                    $log.log(response.data);
+                    $log.log(response);
                 }
 
                 function onError(error){

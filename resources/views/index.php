@@ -7,7 +7,7 @@
     <title>UWIAA</title>
 </head>
 <body>
-
+    <navbar></navbar>
     <!-- main content -->
     <div class="wrapper">
         <div ui-view>
@@ -24,12 +24,16 @@
     <script type="text/javascript" src="bower_components/angular-resource/angular-resource.min.js"></script>
     <script type="text/javascript" src="bower_components/satellizer/satellizer.min.js"></script>
 
-    <script src='bower_components/textAngular/dist/textAngular-rangy.min.js'></script>
-    <script src='bower_components/textAngular/dist/textAngular-sanitize.min.js'></script>
-    <script src='bower_components/textAngular/dist/textAngular.min.js'></script>
+    <script type="text/javascript" src='bower_components/textAngular/dist/textAngular-rangy.min.js'></script>
+    <script type="text/javascript" src='bower_components/textAngular/dist/textAngular-sanitize.min.js'></script>
+    <script type="text/javascript" src='bower_components/textAngular/dist/textAngular.min.js'></script>
 
     <!-- Application Scripts -->
     <script type="text/javascript" src="app/app.js"></script>
+
+    <!-- Directives -->
+    <script type="text/javascript" src="app/shared/navbar/navbar.js"></script>
+    <script type="text/javascript" src="app/shared/navbar/NavbarCtrl.js"></script>
 
     <!-- Controllers -->
     <script type="text/javascript" src="app/components/login/LoginCtrl.js"></script>
@@ -38,13 +42,15 @@
 
     <!-- Pages -->
     <script type="text/javascript" src="app/components/home/HomeCtrl.js"></script>
+    <script type="text/javascript" src="app/components/about/AboutCtrl.js"></script>
 
     <!-- Posts -->
     <script type="text/javascript" src="app/components/posts/PostListCtrl.js"></script>
     <script type="text/javascript" src="app/components/posts/PostNewCtrl.js"></script>
 
-    <!-- message -->
+    <!-- Messages -->
     <script type="text/javascript" src="app/components/messages/MessageListCtrl.js"></script>
     <script type="text/javascript" src="app/components/messages/MessageNewCtrl.js"></script>
+
 </body>
 </html>

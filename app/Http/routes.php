@@ -25,14 +25,16 @@ Route::group(['prefix' => 'api'], function()
     Route::get('auth', 'AuthCtrl@getAuthenticatedUser');
 
     Route::resource('users', 'UsersCtrl');
-    Route::resource('posts', 'PostCtrl');
+    Route::resource('posts', 'PostCtrl', ['except' => ['create', 'edit']]);
+
+    Route::resource('posts/{id}/comments', 'CommentsCtrl', ['except' => ['create', 'edit']]);
 
     /**
      * Guarded routes
      */
     Route::group(['middleware' => 'jwt.auth'], function()
     {
-        Route::resource('messages', 'MessagesCtrl');
+        Route::resource('messages', 'MessagesCtrl', ['except' => ['create', 'edit']]);
     });
 });
 
@@ -41,20 +43,3 @@ Route::group(['prefix' => 'app'], function() {
         return File::get(public_path() . $request->path());
     });
 });
-
-//Route::group(['prefix' => 'app'], function(){
-//    Route::get('{path?}', function(\Request $request)
-//    {
-//        return redirect('/');
-//    });
-//});
-
-//Route::any('{path?}', function()
-//{
-//    return view("index");
-//})->where("path", ".+");
-
-//Route::any('{path?}', function()
-//{
-//    return File::get(public_path() . '/app/shared/main/index.html');
-//})->where("path", ".+");

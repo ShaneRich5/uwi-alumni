@@ -48,6 +48,11 @@
                         templateUrl: 'app/components/users/partials/usersList.html',
                         controller: 'UserListCtrl'
                     })
+                    .state('profiles', {
+                        url: '/users/:userId',
+                        templateUrl: 'app/components/users/partials/usersShow.html',
+                        controller: 'UserShowCtrl'
+                    })
                     .state('messages_list', {
                         url: '/messages',
                         templateUrl: 'app/components/messages/partials/messageList.html',

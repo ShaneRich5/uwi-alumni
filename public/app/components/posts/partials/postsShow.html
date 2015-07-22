@@ -1,5 +1,22 @@
-<h1>{{ post.title }}</h1>
+<div class="container">
+    <h1>{{ post.title }}</h1>
 
-<div>
-    {{ post.body }}
+    <p>{{ post.body }}</p>
+
+    <div class="row">
+        <div class="col-log-6">
+            <comment comment="'comment"></comment>
+        </div>
+        <div class="col-log-6">
+            <div class="input-group">
+                <input ng-model="newComment.body" class="form-control" type="text" placeholder="Type your thoughts..."/>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button ng-click="submit(newComment)" type="submit" class="btn btn-default">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>

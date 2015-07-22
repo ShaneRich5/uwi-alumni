@@ -9,7 +9,6 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
-use Tymon\JWTAuth\Facades\JWTAuth;
 
 class PostCtrl extends Controller
 {
@@ -28,15 +27,6 @@ class PostCtrl extends Controller
         return response()->json(Post::all()->toArray());
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return Response
-     */
-    public function create()
-    {
-
-    }
 
     /**
      * Store a newly created resource in storage.
@@ -48,7 +38,7 @@ class PostCtrl extends Controller
     {
         $post = Auth::user()->posts()->save(new Post($request->only(['title', 'body'])));
 
-        return response()->json($post);
+        return response()->json(Auth::user());
 //        try {
 //            if (! $jwtUser = JWTAuth::parseToken()->authenticate()) {
 //                return response()->json(['user_not_found'], 404);

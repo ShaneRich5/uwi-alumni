@@ -23,7 +23,7 @@
                 };
 
                 function onPostSave(response){
-                    $log.log('success');
+                    $log.log('success...user: ' + response.data);
                     $log.log(response);
                     $state.go('posts_list');
                 }

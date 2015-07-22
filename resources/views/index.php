@@ -35,10 +35,17 @@
     <script type="text/javascript" src="app/shared/navbar/navbar.js"></script>
     <script type="text/javascript" src="app/shared/navbar/NavbarCtrl.js"></script>
 
+    <script type="text/javascript" src="app/shared/comment/comment.js"></script>
+    <script type="text/javascript" src="app/shared/comment/CommentCtrl.js"></script>
+
     <!-- Controllers -->
+    <!-- Session -->
     <script type="text/javascript" src="app/components/login/LoginCtrl.js"></script>
     <script type="text/javascript" src="app/components/register/RegisterCtrl.js"></script>
+
+    <!-- User -->
     <script type="text/javascript" src="app/components/users/UserListCtrl.js"></script>
+    <script type="text/javascript" src="app/components/users/UserShowCtrl.js"></script>
 
     <!-- Pages -->
     <script type="text/javascript" src="app/components/home/HomeCtrl.js"></script>
@@ -48,6 +55,9 @@
     <script type="text/javascript" src="app/components/posts/PostListCtrl.js"></script>
     <script type="text/javascript" src="app/components/posts/PostNewCtrl.js"></script>
     <script type="text/javascript" src="app/components/posts/PostShowCtrl.js"></script>
+
+
+
 
     <!-- Messages -->
     <script type="text/javascript" src="app/components/messages/MessageListCtrl.js"></script>

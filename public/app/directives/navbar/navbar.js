@@ -11,7 +11,7 @@
             return {
                 restrict: 'AE',
                 replace: true,
-                templateUrl: 'app/directives/navbar/navbar.html',
+                templateUrl: 'app/templates/navbar/navbar.html',
                 controller: 'NavbarCtrl'
             }
         })

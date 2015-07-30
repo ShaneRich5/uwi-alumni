@@ -5,7 +5,7 @@
 (function(){
     angular
         .module('uwiaa')
-        .controller('PostShowCtrl', [ '$scope', '$http', '$log', '$stateParams',
+        .controller('ShowPostCtrl', [ '$scope', '$http', '$log', '$stateParams',
             function($scope, $http, $log, $stateParams) {
                 var id = $stateParams.postId; // post id
 

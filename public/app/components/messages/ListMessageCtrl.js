@@ -6,7 +6,7 @@
 (function(){
     angular
         .module('uwiaa')
-        .controller('MessageListCtrl', ['$scope', '$auth', '$http', '$log', '$state',
+        .controller('ListMessageCtrl', ['$scope', '$auth', '$http', '$log', '$state',
             function($scope, $auth, $http, $log, $state){
                 // if the user is not logged in
                 // redirect to login

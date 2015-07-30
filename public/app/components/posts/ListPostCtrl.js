@@ -7,7 +7,7 @@
 (function(){
     angular
         .module('uwiaa')
-        .controller('PostListCtrl', [ '$scope', '$log', '$http',
+        .controller('ListPostCtrl', [ '$scope', '$log', '$http',
             function($scope, $log, $http){
                 $http.get('api/posts')
                     .success(onPostsLoaded)

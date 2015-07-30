@@ -7,7 +7,7 @@
 (function(){
     angular
         .module('uwiaa')
-        .controller('UserShowCtrl', [
+        .controller('ShowUserCtrl', [
             function(){
 
             }

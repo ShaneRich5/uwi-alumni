@@ -29,7 +29,7 @@
     <script type="text/javascript" src='bower_components/textAngular/dist/textAngular.min.js'></script>
 
     <!-- Application Scripts -->
-    <script type="text/javascript" src="app/app.js"></script>
+    <script type="text/javascript" src="app/uwiaa.js"></script>
 
     <!-- Directives -->
     <script type="text/javascript" src="app/directives/navbar/navbar.js"></script>
@@ -38,27 +38,27 @@
     <script type="text/javascript" src="app/directives/comment/comment.js"></script>
     <script type="text/javascript" src="app/directives/comment/CommentCtrl.js"></script>
 
-    <!-- Controllers -->
+    <!-- ======================= Controllers ======================= -->
+    <!-- Pages -->
+    <script type="text/javascript" src="app/components/pages/HomeCtrl.js"></script>
+    <script type="text/javascript" src="app/components/pages/AboutCtrl.js"></script>
+
     <!-- Session -->
-    <script type="text/javascript" src="app/components/login/LoginCtrl.js"></script>
-    <script type="text/javascript" src="app/components/register/RegisterCtrl.js"></script>
+    <script type="text/javascript" src="app/components/sessions/LoginCtrl.js"></script>
+    <script type="text/javascript" src="app/components/sessions/RegisterCtrl.js"></script>
 
     <!-- User -->
-    <script type="text/javascript" src="app/components/users/UserListCtrl.js"></script>
-    <script type="text/javascript" src="app/components/users/UserShowCtrl.js"></script>
-
-    <!-- Pages -->
-    <script type="text/javascript" src="app/components/home/HomeCtrl.js"></script>
-    <script type="text/javascript" src="app/components/about/AboutCtrl.js"></script>
+    <script type="text/javascript" src="app/components/users/ListUserCtrl.js"></script>
+    <script type="text/javascript" src="app/components/users/ShowUserCtrl.js"></script>
 
     <!-- Posts -->
-    <script type="text/javascript" src="app/components/posts/PostListCtrl.js"></script>
-    <script type="text/javascript" src="app/components/posts/PostNewCtrl.js"></script>
-    <script type="text/javascript" src="app/components/posts/PostShowCtrl.js"></script>
+    <script type="text/javascript" src="app/components/posts/ListPostCtrl.js"></script>
+    <script type="text/javascript" src="app/components/posts/NewPostCtrl.js"></script>
+    <script type="text/javascript" src="app/components/posts/ShowPostCtrl.js"></script>
 
     <!-- Messages -->
-    <script type="text/javascript" src="app/components/messages/MessageListCtrl.js"></script>
-    <script type="text/javascript" src="app/components/messages/MessageNewCtrl.js"></script>
+    <script type="text/javascript" src="app/components/messages/ListMessageCtrl.js"></script>
+    <script type="text/javascript" src="app/components/messages/NewMessageCtrl.js"></script>
 
 </body>
 </html>

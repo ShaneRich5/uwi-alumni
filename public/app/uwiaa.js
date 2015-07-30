@@ -29,58 +29,58 @@
                 $stateProvider
                     .state('home', {
                         url: '/',
-                        templateUrl: 'app/components/home/home.html',
+                        templateUrl: templatePath('pages/home'),
                         controller: 'HomeCtrl'
                     })
                     .state('about', {
                         url: '/about',
-                        templateUrl: 'app/components/about/about.html',
+                        templateUrl: templatePath('pages/about'),
                         controller: 'AboutCtrl'
                     })
                     .state('login', {
                         url: '/login',
-                        templateUrl: 'app/components/login/login.html',
+                        templateUrl: templatePath('sessions/login'),
                         controller: 'LoginCtrl'
                     })
                     .state('register', {
                         url: '/register',
-                        templateUrl: 'app/components/register/register.html',
+                        templateUrl: templatePath('sessions/register'),
                         controller: 'RegisterCtrl'
                     })
                     .state('users', {
                         url: '/users',
                         templateUrl: templatePath('users/index'),
-                        controller: 'UserListCtrl'
+                        controller: 'ListUserCtrl'
                     })
                     .state('profiles', {
                         url: '/users/:userId',
                         templateUrl: templatePath('users/show'),
-                        controller: 'UserShowCtrl'
+                        controller: 'ShowUserCtrl'
                     })
                     .state('messages_list', {
                         url: '/messages',
                         templateUrl: templatePath('messages/index'),
-                        controller: 'MessageListCtrl'
+                        controller: 'ListMessageCtrl'
                     })
                     .state('messages_new', {
                         url: '/messages/create',
                         templateUrl: templatePath('messages/new'),
-                        controller: 'MessageNewCtrl'
+                        controller: 'NewMessageCtrl'
                     })
                     .state('posts_list', {
                         url: '/posts',
                         templateUrl: templatePath('posts/index'),
-                        controller: 'PostListCtrl'
+                        controller: 'ListPostCtrl'
                     })
                     .state('posts_new', {
                         url: '/posts/new',
                         templateUrl: templatePath('posts/new'),
-                        controller: 'PostNewCtrl'
+                        controller: 'NewPostCtrl'
                     })
                     .state('posts_show', {
                         url: '/posts/:postId',
                         templateUrl: templatePath('posts/show'),
-                        controller: 'PostShowCtrl'
+                        controller: 'ShowPostCtrl'
                     });
 
                 // Setup for the $httpInterceptor

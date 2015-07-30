@@ -6,7 +6,7 @@
 (function(){
     angular
         .module('uwiaa')
-        .controller('UserListCtrl', ['$scope', '$auth', '$http', '$rootScope', '$log',
+        .controller('ListUserCtrl', ['$scope', '$auth', '$http', '$rootScope', '$log',
             function($scope, $auth, $http, $rootScope, $log){
                 $scope.user = null;
 

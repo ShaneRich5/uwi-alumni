@@ -6,7 +6,7 @@
 (function(){
     angular
         .module('uwiaa')
-        .controller('PostNewCtrl', [ '$scope', '$http', '$log', '$auth', '$state',
+        .controller('NewPostCtrl', [ '$scope', '$http', '$log', '$auth', '$state',
             function($scope, $http, $log, $auth, $state){
                 // if the user is not logged in
                 // redirect to login

@@ -1,0 +1,22 @@
+<!doctype html>
+<html ng-app="uwiaa">
+<head>
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel='stylesheet' href='/bower_components/textAngular/dist/textAngular.css'>
+    <title>UWIAA</title>
+</head>
+<body>
+    <navbar></navbar>
+    <!-- main content -->
+    <div class="wrapper">
+        <div ui-view>
+            <h1>Loading...</h1>
+        </div>
+    </div>
+
+    <!-- inject:js -->
+    <!-- endinject -->
+
+</body>
+</html>

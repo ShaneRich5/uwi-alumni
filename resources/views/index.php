@@ -32,11 +32,11 @@
     <script type="text/javascript" src="app/app.js"></script>
 
     <!-- Directives -->
-    <script type="text/javascript" src="app/shared/navbar/navbar.js"></script>
-    <script type="text/javascript" src="app/shared/navbar/NavbarCtrl.js"></script>
+    <script type="text/javascript" src="app/directives/navbar/navbar.js"></script>
+    <script type="text/javascript" src="app/directives/navbar/NavbarCtrl.js"></script>
 
-    <script type="text/javascript" src="app/shared/comment/comment.js"></script>
-    <script type="text/javascript" src="app/shared/comment/CommentCtrl.js"></script>
+    <script type="text/javascript" src="app/directives/comment/comment.js"></script>
+    <script type="text/javascript" src="app/directives/comment/CommentCtrl.js"></script>
 
     <!-- Controllers -->
     <!-- Session -->
@@ -55,9 +55,6 @@
     <script type="text/javascript" src="app/components/posts/PostListCtrl.js"></script>
     <script type="text/javascript" src="app/components/posts/PostNewCtrl.js"></script>
     <script type="text/javascript" src="app/components/posts/PostShowCtrl.js"></script>
-
-
-
 
     <!-- Messages -->
     <script type="text/javascript" src="app/components/messages/MessageListCtrl.js"></script>

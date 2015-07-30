@@ -12,7 +12,7 @@
                     comment: '=data'
                 },
                 replace: true,
-                templateUrl: 'app/shared/comment/comment.html',
+                templateUrl: 'app/directives/comment/comment.html',
                 controller: 'CommentCtrl'
             }
         })

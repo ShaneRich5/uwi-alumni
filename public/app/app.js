@@ -14,6 +14,10 @@
         .config(['$stateProvider', '$authProvider', '$urlRouterProvider', '$httpProvider', '$provide',
             function($stateProvider, $authProvider, $urlRouterProvider, $httpProvider, $provide) {
 
+                function templatePath(path) {
+                    return 'app/templates/' + path + '.html';
+                }
+
                 // configures Satellizer to retrieve tokens from this route
                 $authProvider.loginUrl = 'api/login';
                 $authProvider.signupUrl = 'api/register';
@@ -45,37 +49,37 @@
                     })
                     .state('users', {
                         url: '/users',
-                        templateUrl: 'app/components/users/partials/usersList.html',
+                        templateUrl: templatePath('users/index'),
                         controller: 'UserListCtrl'
                     })
                     .state('profiles', {
                         url: '/users/:userId',
-                        templateUrl: 'app/components/users/partials/usersShow.html',
+                        templateUrl: templatePath('users/show'),
                         controller: 'UserShowCtrl'
                     })
                     .state('messages_list', {
                         url: '/messages',
-                        templateUrl: 'app/components/messages/partials/messageList.html',
+                        templateUrl: templatePath('messages/index'),
                         controller: 'MessageListCtrl'
                     })
                     .state('messages_new', {
                         url: '/messages/create',
-                        templateUrl: 'app/components/messages/partials/messageNew.html',
+                        templateUrl: templatePath('messages/new'),
                         controller: 'MessageNewCtrl'
                     })
                     .state('posts_list', {
                         url: '/posts',
-                        templateUrl: 'app/components/posts/partials/postsList.html',
+                        templateUrl: templatePath('posts/index'),
                         controller: 'PostListCtrl'
                     })
                     .state('posts_new', {
                         url: '/posts/new',
-                        templateUrl: 'app/components/posts/partials/postsNew.html',
+                        templateUrl: templatePath('posts/new'),
                         controller: 'PostNewCtrl'
                     })
                     .state('posts_show', {
                         url: '/posts/:postId',
-                        templateUrl: 'app/components/posts/partials/postsShow.html',
+                        templateUrl: templatePath('posts/show'),
                         controller: 'PostShowCtrl'
                     });
 

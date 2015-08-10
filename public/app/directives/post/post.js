@@ -7,7 +7,7 @@
 (function(){
     angular
         .module('uwiaa')
-        .directive('post', function($sce){
+        .directive('post', function(){
             return {
                 restrict: 'AE',
                 scope: {
@@ -16,10 +16,7 @@
                 },
                 replace: true,
                 templateUrl: 'app/templates/posts/post.html',
-                controller: 'PostCtrl',
-                link: function(scope, element, attr) {
-                    //scope.body = $sce.trustAsHtml( markdown.toHTML( scope.body ) );
-                }
+                controller: 'PostCtrl'
             }
         });
 }());

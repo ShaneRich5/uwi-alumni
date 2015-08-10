@@ -9,9 +9,12 @@ use App\Http\Requests;
 
 class UsersCtrl extends Controller
 {
-    function __construct()
+    var $user;
+
+    function __construct(User $user)
     {
-        $this->middleware('jwt.auth');
+        $this->middleware('jwt.auth', ['except' => ['index']]);
+        $this->user = $user;
     }
 
     /**
@@ -21,17 +24,7 @@ class UsersCtrl extends Controller
      */
     public function index()
     {
-        return User::all();
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return Response
-     */
-    public function create()
-    {
-        //
+        return $this->user->all();
     }
 
     /**
@@ -52,17 +45,6 @@ class UsersCtrl extends Controller
      * @return Response
      */
     public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return Response
-     */
-    public function edit($id)
     {
         //
     }

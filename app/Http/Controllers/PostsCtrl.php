@@ -9,7 +9,6 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Input;
 
 class PostsCtrl extends Controller
 {
@@ -26,11 +25,8 @@ class PostsCtrl extends Controller
      *
      * @return Response
      */
-    public function index(Input $input)
+    public function index(Request $request)
     {
-
-
-
         return response()->json($this->post->all()->toArray());
     }
 
@@ -82,17 +78,6 @@ class PostsCtrl extends Controller
         $post = $this->post->find($id);
 
         return response()->json($post);
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return Response
-     */
-    public function edit($id)
-    {
-        //
     }
 
     /**

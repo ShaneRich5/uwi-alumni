@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Message;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -9,6 +10,13 @@ use App\Http\Controllers\Controller;
 
 class MessagesCtrl extends Controller
 {
+    var $message;
+
+    function __construct(Message $message)
+    {
+        $this->message = $message;
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -16,7 +24,7 @@ class MessagesCtrl extends Controller
      */
     public function index()
     {
-        //
+
     }
 
     /**

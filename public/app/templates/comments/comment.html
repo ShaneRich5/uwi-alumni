@@ -1,1 +1,5 @@
-<li class="list-group-item">{{ body }}</li>
+<div>
+    <p>{{ body }}</p>
+    <p>by <a ng-href="api/users/{{id}}">{{ name }}</a></p>
+    <p>at {{ createdAt }}</p>
+</div>

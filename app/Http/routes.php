@@ -27,7 +27,7 @@ Route::group(['prefix' => 'api'], function()
     Route::resource('users', 'UsersCtrl');
     Route::resource('posts', 'PostsCtrl', ['except' => ['create', 'edit']]);
 
-    Route::resource('posts/{id}/comments', 'CommentsCtrl', ['except' => ['create', 'edit']]);
+    Route::resource('posts/{post_id}/comments', 'CommentsCtrl', ['except' => ['create', 'edit']]);
 
     /**
      * Guarded routes

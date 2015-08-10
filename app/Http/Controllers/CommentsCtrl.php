@@ -25,11 +25,15 @@ class CommentsCtrl extends Controller
     /**
      * Display a listing of the resource.
      *
+     * @param $post_id
+     * @param Post $post
      * @return Response
      */
-    public function index()
+    public function index($post_id, Post $post)
     {
-        return response()->json(Comment::all()->toArray());
+        $comments = $post->find($post_id)->comments()->with('user')->get();
+
+        return response()->json($comments->toArray());
     }
 
     /**

@@ -1,22 +1,18 @@
 <div class="container">
-
     <post title="post.title" body="post.body"></post>
-
     <div class="row">
-        <ul class="list-group" ng-repeat="comment in comments">
-            <comment body="comment.body"></comment>
+        <ul class="list-group">
+            <li class="list-group-item" ng-repeat="comment in comments">
+                <comment body="comment.body" name="comment.user.name" createdAt="comment.created_at" posterLink="api/users/{{comment.user.id}}"></comment>
+            </li>
         </ul>
-
-        <div class="col-log-6">
+        <div class="col-lg-6">
             <div class="input-group">
-                <input ng-model="newComment.body" class="form-control" type="text" placeholder="Type your thoughts..."/>
-            </div>
-            <div class="form-group">
-                <div class="col-sm-offset-2 col-sm-10">
-                    <button ng-click="submit(newComment)" type="submit" class="btn btn-default">Save</button>
-                </div>
-            </div>
-        </div>
+                <input ng-model="newComment.body" type="text" class="form-control" placeholder="Share your thoughts">
+                <span class="input-group-btn">
+                    <button ng-click="submit(newComment)" class="btn btn-default" type="button">Save</button>
+                </span>
+            </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
     </div>
-
 </div>

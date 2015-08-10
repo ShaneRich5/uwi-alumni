@@ -9,12 +9,16 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Input;
 
 class PostsCtrl extends Controller
 {
-    function __construct()
+    var $post;
+
+    function __construct(Post $post)
     {
         $this->middleware('jwt.auth', ['except' => ['index', 'show']]);
+        $this->post = $post;
     }
 
     /**
@@ -22,9 +26,12 @@ class PostsCtrl extends Controller
      *
      * @return Response
      */
-    public function index()
+    public function index(Input $input)
     {
-        return response()->json(Post::all()->toArray());
+
+
+
+        return response()->json($this->post->all()->toArray());
     }
 
 
@@ -72,7 +79,7 @@ class PostsCtrl extends Controller
      */
     public function show($id)
     {
-        $post = Post::find($id);
+        $post = $this->post->find($id);
 
         return response()->json($post);
     }

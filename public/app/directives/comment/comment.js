@@ -9,7 +9,9 @@
             return {
                 restrict: 'AE',
                 scope: {
-                    body: '='
+                    body: '=',
+                    name: '=',
+                    createdAt: '='
                 },
                 replace: true,
                 templateUrl: 'app/templates/comments/comment.html',

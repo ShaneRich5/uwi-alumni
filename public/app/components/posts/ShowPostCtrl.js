@@ -5,13 +5,22 @@
 (function(){
     angular
         .module('uwiaa')
-        .controller('ShowPostCtrl', [ '$scope', '$http', '$log', '$stateParams',
-            function($scope, $http, $log, $stateParams) {
+        .controller('ShowPostCtrl', [ '$scope', '$log', '$stateParams', '$http',
+            function($scope,  $log, $stateParams, $http) {
                 var id = $stateParams.postId; // post id
 
+                //Post.find(id)
+                //    .success(function(res){
+                //        $log.log('Post data: ' + res.data);
+                //        $scope.post = res.data;
+                //
+                //        return Comment.all({postId: id});
+                //    })
+                //    .success(function(data){
+                //        $log.log('Comments: ' + data);
+                //    });
                 //$http.get('api/posts/' + $stateParams.postId)
                 //    .then(onPostLoaded, onError);
-
 
                 $http.get('api/posts/' + id)
                     .then(function(res){
@@ -21,7 +30,7 @@
                         return $http.get('api/posts/' + id + '/comments');
                     })
                     .then(function(res){
-                        //$log.log('Comments data: ' + res.data);
+                        $log.log('Comments data: ' + res.data);
                         $scope.comments = res.data;
                     });
 

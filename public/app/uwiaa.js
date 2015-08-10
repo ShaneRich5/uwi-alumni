@@ -9,7 +9,8 @@
             'satellizer',
             'ui.router',
             'ngCookies',
-            'textAngular'
+            'textAngular',
+            'ngResource'
         ])
         .config(['$stateProvider', '$authProvider', '$urlRouterProvider', '$httpProvider', '$provide',
             function($stateProvider, $authProvider, $urlRouterProvider, $httpProvider, $provide) {

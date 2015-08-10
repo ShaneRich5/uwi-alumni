@@ -10,7 +10,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 
-class PostCtrl extends Controller
+class PostsCtrl extends Controller
 {
     function __construct()
     {

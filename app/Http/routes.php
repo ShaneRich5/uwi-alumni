@@ -25,7 +25,7 @@ Route::group(['prefix' => 'api'], function()
     Route::get('auth', 'AuthCtrl@getAuthenticatedUser');
 
     Route::resource('users', 'UsersCtrl');
-    Route::resource('posts', 'PostCtrl', ['except' => ['create', 'edit']]);
+    Route::resource('posts', 'PostsCtrl', ['except' => ['create', 'edit']]);
 
     Route::resource('posts/{id}/comments', 'CommentsCtrl', ['except' => ['create', 'edit']]);
 

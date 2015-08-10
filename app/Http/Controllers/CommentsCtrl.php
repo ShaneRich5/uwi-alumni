@@ -32,7 +32,6 @@ class CommentsCtrl extends Controller
         return response()->json(Comment::all()->toArray());
     }
 
-
     /**
      * Store a newly created resource in storage.
      *

@@ -6,28 +6,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6e92e30-8ad1-44e6-9570-f110e9b3016a" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/app/app.js" afterPath="$PROJECT_DIR$/public/app/uwiaa.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/app/components/about/AboutCtrl.js" afterPath="$PROJECT_DIR$/public/app/components/pages/AboutCtrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/app/components/about/about.html" afterPath="$PROJECT_DIR$/public/app/templates/pages/about.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/app/components/home/HomeCtrl.js" afterPath="$PROJECT_DIR$/public/app/components/pages/HomeCtrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/app/components/home/home.html" afterPath="$PROJECT_DIR$/public/app/templates/pages/home.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/app/components/login/LoginCtrl.js" afterPath="$PROJECT_DIR$/public/app/components/sessions/LoginCtrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/app/components/login/login.html" afterPath="$PROJECT_DIR$/public/app/templates/sessions/login.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/app/components/messages/MessageListCtrl.js" afterPath="$PROJECT_DIR$/public/app/components/messages/ListMessageCtrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/app/components/messages/MessageNewCtrl.js" afterPath="$PROJECT_DIR$/public/app/components/messages/NewMessageCtrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/app/components/posts/PostListCtrl.js" afterPath="$PROJECT_DIR$/public/app/components/posts/ListPostCtrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/app/components/posts/PostNewCtrl.js" afterPath="$PROJECT_DIR$/public/app/components/posts/NewPostCtrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/app/components/posts/PostShowCtrl.js" afterPath="$PROJECT_DIR$/public/app/components/posts/ShowPostCtrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/app/components/register/RegisterCtrl.js" afterPath="$PROJECT_DIR$/public/app/components/sessions/RegisterCtrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/app/components/register/register.html" afterPath="$PROJECT_DIR$/public/app/templates/sessions/register.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/app/components/users/UserListCtrl.js" afterPath="$PROJECT_DIR$/public/app/components/users/ListUserCtrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/app/components/users/UserShowCtrl.js" afterPath="$PROJECT_DIR$/public/app/components/users/ShowUserCtrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/app/directives/comment/comment.html" afterPath="$PROJECT_DIR$/public/app/templates/comments/comment.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/app/directives/navbar/navbar.html" afterPath="$PROJECT_DIR$/public/app/templates/navbar/navbar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/directives/post/PostCtrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/services/comment/comment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/templates/posts/post.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/directives/post/post.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/services/post/post.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Http/Controllers/PostCtrl.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsCtrl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/angular-resource/.bower.json" afterPath="$PROJECT_DIR$/public/bower_components/angular-resource/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/directives/comment/CommentCtrl.js" afterPath="$PROJECT_DIR$/public/app/directives/comment/CommentCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentsCtrl.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentsCtrl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/components/posts/ShowPostCtrl.js" afterPath="$PROJECT_DIR$/public/app/components/posts/ShowPostCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/angular-resource/angular-resource.js" afterPath="$PROJECT_DIR$/public/bower_components/angular-resource/angular-resource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/angular-resource/angular-resource.min.js" afterPath="$PROJECT_DIR$/public/bower_components/angular-resource/angular-resource.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower.json" afterPath="$PROJECT_DIR$/public/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/angular-resource/bower.json" afterPath="$PROJECT_DIR$/public/bower_components/angular-resource/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/templates/comments/comment.html" afterPath="$PROJECT_DIR$/public/app/templates/comments/comment.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/directives/comment/comment.js" afterPath="$PROJECT_DIR$/public/app/directives/comment/comment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/templates/messages/index.html" afterPath="$PROJECT_DIR$/public/app/templates/messages/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index.php" afterPath="$PROJECT_DIR$/resources/views/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/directives/navbar/navbar.js" afterPath="$PROJECT_DIR$/public/app/directives/navbar/navbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bower_components/angular-resource/package.json" afterPath="$PROJECT_DIR$/public/bower_components/angular-resource/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/templates/posts/show.html" afterPath="$PROJECT_DIR$/public/app/templates/posts/show.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uwi-alumni.iml" afterPath="$PROJECT_DIR$/.idea/uwi-alumni.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/uwiaa.js" afterPath="$PROJECT_DIR$/public/app/uwiaa.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="uwi-alumni.iws" />
@@ -69,38 +70,94 @@
     <favorites_list name="uwi-alumni" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="uwiaa.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/uwiaa.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="59" column="41" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NavbarCtrl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/directives/navbar/NavbarCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navbar.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/app/templates/navbar/navbar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47302905">
-              <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="vertical" split-proportion="0.5">
+      <split-first>
+        <splitter split-orientation="horizontal" split-proportion="0.5">
+          <split-first>
+            <leaf>
+              <file leaf-file-name="post.js" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/public/app/directives/post/post.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state vertical-scroll-proportion="0.6876404">
+                      <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+                      <folding>
+                        <element signature="e#0#38#0" expanded="false" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="ShowPostCtrl.js" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/public/app/components/posts/ShowPostCtrl.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state vertical-scroll-proportion="0.0">
+                      <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file leaf-file-name="comment.js" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/public/app/directives/comment/comment.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state vertical-scroll-proportion="0.48539326">
+                      <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="show.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/app/templates/posts/show.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-1.3333334">
+                  <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/resources/views/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-4.2222223">
+                  <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="post.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/public/app/templates/posts/post.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.12857144">
+                  <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Html5" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -108,17 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Comment.php" />
-        <option value="$PROJECT_DIR$/app/Models/User.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_07_17_040916_create_posts_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_07_16_141324_create_messages_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/CreatePostRequest.php" />
-        <option value="$PROJECT_DIR$/public/app/components/home/home.html" />
-        <option value="$PROJECT_DIR$/public/app/components/home/HomeCtrl.js" />
-        <option value="$PROJECT_DIR$/public/app/components/messages/partials/messageNew.html" />
-        <option value="$PROJECT_DIR$/public/app/components/users/UserListCtrl.js" />
-        <option value="$PROJECT_DIR$/public/app/shared/navbar/navbar.js" />
-        <option value="$PROJECT_DIR$/public/app/shared/navbar/navbar.html.css" />
         <option value="$PROJECT_DIR$/public/app/components/about/about.html" />
         <option value="$PROJECT_DIR$/public/app/components/about/AboutCtrl.js" />
         <option value="$PROJECT_DIR$/public/app/shared/navbar/NavbarCtrl.js" />
@@ -131,14 +177,12 @@
         <option value="$PROJECT_DIR$/public/app/components/comments/CommentListCtrl.js" />
         <option value="$PROJECT_DIR$/public/app/shared/comment/comment.html" />
         <option value="$PROJECT_DIR$/public/app/components/posts/PostListCtrl.js" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/CreateCommentRequest.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_07_17_040929_create_comments_table.php" />
         <option value="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/Models/Comment.php" />
         <option value="$PROJECT_DIR$/public/app/components/posts/PostNewCtrl.js" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PostCtrl.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/CommentsCtrl.php" />
         <option value="$PROJECT_DIR$/public/app/shared/comment/CommentCtrl.js" />
         <option value="$PROJECT_DIR$/public/app/components/posts/PostShowCtrl.js" />
         <option value="$PROJECT_DIR$/public/app/components/posts/partials/postsShow.html" />
@@ -148,17 +192,30 @@
         <option value="$PROJECT_DIR$/public/app/app.js" />
         <option value="$PROJECT_DIR$/public/app/directives/navbar/navbar.html" />
         <option value="$PROJECT_DIR$/public/app/directives/navbar/navbar.js" />
-        <option value="$PROJECT_DIR$/resources/views/index.php" />
         <option value="$PROJECT_DIR$/public/app/components/messages/ListMessageCtrl.js" />
         <option value="$PROJECT_DIR$/public/app/components/messages/NewMessageCtrl.js" />
         <option value="$PROJECT_DIR$/public/app/components/posts/ListPostCtrl.js" />
         <option value="$PROJECT_DIR$/public/app/components/posts/NewPostCtrl.js" />
-        <option value="$PROJECT_DIR$/public/app/components/posts/ShowPostCtrl.js" />
         <option value="$PROJECT_DIR$/public/app/components/users/ListUserCtrl.js" />
         <option value="$PROJECT_DIR$/public/app/components/users/UserShowCtrl.js" />
-        <option value="$PROJECT_DIR$/public/app/directives/comment/comment.js" />
-        <option value="$PROJECT_DIR$/public/app/uwiaa.js" />
         <option value="$PROJECT_DIR$/public/app/templates/navbar/navbar.html" />
+        <option value="$PROJECT_DIR$/public/app/templates/messages/index.html" />
+        <option value="$PROJECT_DIR$/public/app/directives/comment/CommentCtrl.js" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CommentsCtrl.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PostsCtrl.php" />
+        <option value="$PROJECT_DIR$/public/app/templates/comments/comment.html" />
+        <option value="$PROJECT_DIR$/public/app/directives/comment/comment.js" />
+        <option value="$PROJECT_DIR$/public/app/directives/post/PostCtrl.js" />
+        <option value="$PROJECT_DIR$/public/app/uwiaa.js" />
+        <option value="$PROJECT_DIR$/public/app/services/posts/post.js" />
+        <option value="$PROJECT_DIR$/resources/views/index.php" />
+        <option value="$PROJECT_DIR$/public/app/services/comment/comment.js" />
+        <option value="$PROJECT_DIR$/public/app/services/post/post.js" />
+        <option value="$PROJECT_DIR$/public/app/components/posts/ShowPostCtrl.js" />
+        <option value="$PROJECT_DIR$/public/app/templates/posts/show.html" />
+        <option value="$PROJECT_DIR$/public/app/directives/post/post.js" />
+        <option value="$PROJECT_DIR$/public/app/templates/posts/post.html" />
       </list>
     </option>
   </component>
@@ -174,12 +231,15 @@
   <component name="NamedScopeManager">
     <order />
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1985" />
-    <option name="y" value="-4" />
-    <option name="width" value="1375" />
-    <option name="height" value="904" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -204,6 +264,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -250,6 +312,72 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uwi-alumni" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uwi-alumni" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="markdown" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uwi-alumni" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uwi-alumni" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="markdown" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uwi-alumni" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uwi-alumni" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -298,7 +426,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sessions" />
+              <option name="myItemId" value="posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -320,11 +448,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="navbar" />
+              <option name="myItemId" value="post" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -346,11 +474,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="comments" />
+              <option name="myItemId" value="comment" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -376,7 +504,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="navbar" />
+              <option name="myItemId" value="post" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uwi-alumni" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uwi-alumni" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="directives" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -427,36 +577,6 @@
               <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uwi-alumni" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uwi-alumni" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sessions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -484,75 +604,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uwi-alumni" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uwi-alumni" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uwi-alumni" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uwi-alumni" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="messages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../nodejs/takeout" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/resources/views/index.php&#10;PostNew&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/components/posts/PostNewCtrl.js&#10;Comm&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Models/Comment.php&#10;Grammar.php&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/vendor/laravel/framework/src/Illuminate/Database/Query/Grammars/Grammar.php&#10;Grammar.&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/vendor/laravel/framework/src/Illuminate/Database/Grammar.php&#10;User.p&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Models/User.php&#10;Post.php&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Models/Post.php&#10;Comment&#9;null&#9;null&#10;PostCtrl&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Http/Controllers/PostCtrl.php&#10;CommentCtrl&#9;null&#9;null&#10;CommentC&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/shared/comment/CommentCtrl.js&#10;route&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Http/routes.php&#10;Post&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Http/Controllers/PostCtrl.php&#10;MessagesC&#9;null&#9;null&#10;postlis&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/components/posts/partials/postsList.html&#10;app&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/app.js&#10;ind&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/resources/views/index.php&#10;PostNeC&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/components/posts/PostNewCtrl.js&#10;postCtrl&#9;null&#9;null&#10;in&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/resources/views/index.php&#10;PostCtr&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Http/Controllers/PostCtrl.php&#10;PostN&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/components/posts/partials/postsNew.html&#10;index.&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/resources/views/index.php&#10;app.js&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/app.js&#10;inde&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/resources/views/index.php&#10;Commen&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Comment.php&#10;create_comm&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/database/migrations/2015_07_17_040929_create_comments_table.php&#10;User&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Models/User.php&#10;App\User&#9;null&#9;null&#10;Eloquen&#9;null&#9;null&#10;register&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/components/register/register.html&#10;LoginC&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/components/login/LoginCtrl.js&#10;RegisterC&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/components/register/RegisterCtrl.js&#10;Convers&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Models/Conversation.php&#10;routes&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Http/routes.php&#10;JWT&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/config/jwt.php" />
+    <property name="SearchEverywhereHistoryKey" value="index.p&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/resources/views/index.php&#10;index&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/resources/views/index.php&#10;PostNew&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/components/posts/PostNewCtrl.js&#10;Comm&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Models/Comment.php&#10;Grammar.php&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/vendor/laravel/framework/src/Illuminate/Database/Query/Grammars/Grammar.php&#10;Grammar.&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/vendor/laravel/framework/src/Illuminate/Database/Grammar.php&#10;User.p&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Models/User.php&#10;Post.php&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Models/Post.php&#10;Comment&#9;null&#9;null&#10;PostCtrl&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Http/Controllers/PostCtrl.php&#10;CommentCtrl&#9;null&#9;null&#10;CommentC&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/shared/comment/CommentCtrl.js&#10;route&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Http/routes.php&#10;Post&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Http/Controllers/PostCtrl.php&#10;MessagesC&#9;null&#9;null&#10;postlis&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/components/posts/partials/postsList.html&#10;app&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/app.js&#10;ind&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/resources/views/index.php&#10;PostNeC&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/components/posts/PostNewCtrl.js&#10;postCtrl&#9;null&#9;null&#10;in&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/resources/views/index.php&#10;PostCtr&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Http/Controllers/PostCtrl.php&#10;PostN&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/components/posts/partials/postsNew.html&#10;index.&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/resources/views/index.php&#10;app.js&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/app.js&#10;inde&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/resources/views/index.php&#10;Commen&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Comment.php&#10;create_comm&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/database/migrations/2015_07_17_040929_create_comments_table.php&#10;User&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Models/User.php&#10;App\User&#9;null&#9;null&#10;Eloquen&#9;null&#9;null&#10;register&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/components/register/register.html&#10;LoginC&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/components/login/LoginCtrl.js&#10;RegisterC&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/public/app/components/register/RegisterCtrl.js&#10;Convers&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Models/Conversation.php&#10;routes&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/app/Http/routes.php&#10;JWT&#9;FILE&#9;file:///home/shane/projects/laravel/uwi-alumni/config/jwt.php" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="FullScreen" value="false" />
     <property name="options.lastSelected" value="configurable.group.tools" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -605,19 +672,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1985" y="-4" width="1375" height="904" extended-state="6" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23702031" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17634052" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35376757" sideWeight="0.5006329" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32848102" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32820514" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34358975" sideWeight="0.4993671" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.278125" sideWeight="0.4993671" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -626,6 +692,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39974937" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32820514" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
@@ -668,20 +735,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Models/Conversation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MessagesCtrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.0">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/app/templates/posts/new.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37422037">
@@ -738,13 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.259259">
-          <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07725322">
@@ -773,51 +819,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/23ba8b62/5d1b3729-f9f3-4754-823e-c3c598545f04/uwiaa..posts">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.54901963">
           <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/23ba8b62/5d1b3729-f9f3-4754-823e-c3c598545f04/uwiaa..comments">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CommentsCtrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
-          <folding>
-            <element signature="e#40#63#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostCtrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16513762">
-          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -832,25 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/directives/comment/CommentCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23893805">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/templates/posts/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2769231">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -858,7 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6725275">
           <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -866,7 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.51428574">
           <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -874,23 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/templates/messages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19917013">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/templates/posts/show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24896266">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -898,7 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.288">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -906,7 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.288">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -914,7 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -922,7 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6473029">
           <caret line="26" column="14" selection-start-line="22" selection-start-column="8" selection-end-line="26" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -930,7 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19917013">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -938,15 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.192">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/components/messages/ListMessageCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -954,7 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.216">
           <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,17 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/components/posts/ShowPostCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -980,7 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -988,15 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.444445">
-          <caret line="40" column="72" selection-start-line="40" selection-start-column="72" selection-end-line="40" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1004,34 +935,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.192">
           <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/directives/comment/comment.js">
+    <entry file="file://$PROJECT_DIR$/public/app/templates/navbar/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.288">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/templates/comments/comment.html">
+    <entry file="file://$PROJECT_DIR$/public/app/templates/messages/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.049792532">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state vertical-scroll-proportion="-2.6666667">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/components/messages/ListMessageCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5229358">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/app/directives/navbar/navbar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.312">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1039,24 +973,156 @@
     <entry file="file://$PROJECT_DIR$/public/app/directives/navbar/NavbarCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/templates/posts/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46494466">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CommentsCtrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26568267">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17343174">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <element signature="e#7#392#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostsCtrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59778595">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/directives/comment/CommentCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16705337">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/templates/comments/comment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/directives/post/PostCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33410674">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/app/uwiaa.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="41" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.2088167">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/templates/navbar/navbar.html">
+    <entry file="file://$PROJECT_DIR$/public/app/services/post/post.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47302905">
-          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+        <state vertical-scroll-proportion="0.40449437">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/services/comment/comment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28314605">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/directives/comment/comment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48539326">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.2222223">
+          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/components/posts/ShowPostCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/templates/posts/show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3333334">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bower_components/markdown/lib/markdown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6404495">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/templates/posts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12857144">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/directives/post/post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6876404">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

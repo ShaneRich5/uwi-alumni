@@ -1,12 +1,14 @@
 <div class="container">
-    <h1>{{ post.title }}</h1>
 
-    <p>{{ post.body }}</p>
+    <post title="post.title" body="post.body"></post>
 
     <div class="row">
-        <div class="col-log-6">
-            <comment comment="'comment"></comment>
-        </div>
+        <ul class="list-group" ng-repeat="comment in comments">
+            <li class="list-group-item">
+                <comment body="comment.body"></comment>
+            </li>
+        </ul>
+
         <div class="col-log-6">
             <div class="input-group">
                 <input ng-model="newComment.body" class="form-control" type="text" placeholder="Type your thoughts..."/>

@@ -23,7 +23,8 @@
     <script type="text/javascript" src="bower_components/angular-cookies/angular-cookies.min.js"></script>
     <script type="text/javascript" src="bower_components/angular-resource/angular-resource.min.js"></script>
     <script type="text/javascript" src="bower_components/satellizer/satellizer.min.js"></script>
-
+    <script type="text/javascript" src="bower_components/markdown/lib/markdown.js"></script>
+    <script type="text/javascript" src="bower_components/angular-resource/angular-resource.min.js"></script>
     <script type="text/javascript" src='bower_components/textAngular/dist/textAngular-rangy.min.js'></script>
     <script type="text/javascript" src='bower_components/textAngular/dist/textAngular-sanitize.min.js'></script>
     <script type="text/javascript" src='bower_components/textAngular/dist/textAngular.min.js'></script>
@@ -31,12 +32,19 @@
     <!-- Application Scripts -->
     <script type="text/javascript" src="app/uwiaa.js"></script>
 
+    <!-- Services -->
+    <script type="text/javascript" src="app/services/post/post.js"></script>
+    <script type="text/javascript" src="app/services/comment/comment.js"></script>
+
     <!-- Directives -->
     <script type="text/javascript" src="app/directives/navbar/navbar.js"></script>
     <script type="text/javascript" src="app/directives/navbar/NavbarCtrl.js"></script>
 
-    <script type="text/javascript" src="app/directives/comment/comment.js"></script>
+    <script type="text/javascript" src="app/directives/post/PostCtrl.js"></script>
+    <script type="text/javascript" src="app/directives/post/post.js"></script>
+
     <script type="text/javascript" src="app/directives/comment/CommentCtrl.js"></script>
+    <script type="text/javascript" src="app/directives/comment/comment.js"></script>
 
     <!-- ======================= Controllers ======================= -->
     <!-- Pages -->

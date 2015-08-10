@@ -9,11 +9,11 @@
             return {
                 restrict: 'AE',
                 scope: {
-                    comment: '=data'
+                    body: '='
                 },
                 replace: true,
-                templateUrl: 'app/templates/comment/comment.html',
+                templateUrl: 'app/templates/comments/comment.html',
                 controller: 'CommentCtrl'
             }
-        })
+        });
 }());

@@ -20,11 +20,17 @@ class UsersCtrl extends Controller
     /**
      * Display a listing of the resource.
      *
+     * @param Request $request
      * @return Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        return $this->user->all();
+        if ($request->has('email'))
+        {
+            return response()->json($this->user->whereEmail($request->input('email'))->firstOrFail());
+        }
+
+        return response()->json($this->user->all()->toArray());
     }
 
     /**

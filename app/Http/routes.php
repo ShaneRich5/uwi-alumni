@@ -32,10 +32,10 @@ Route::group(['prefix' => 'api'], function()
     /**
      * Guarded routes
      */
-    Route::group(['middleware' => 'jwt.auth'], function()
-    {
+//    Route::group(['middleware' => 'jwt.auth'], function()
+//    {
         Route::resource('messages', 'MessagesCtrl', ['except' => ['create', 'edit']]);
-    });
+//    });
 });
 
 Route::group(['prefix' => 'app'], function() {

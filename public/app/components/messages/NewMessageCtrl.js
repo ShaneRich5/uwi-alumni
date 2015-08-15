@@ -24,17 +24,15 @@
                                 $log.debug(data);
                             else {
                                 $scope.recipients.push(data);
-                                $log.log('Recipient: ' + data);
+                                $log.log('Recipient: ' + data.id);
                             }
                         });
                 };
 
                 $scope.submit = function(message, recipients) {
-                    $log.debug('Message: ' + message + ' Recipient(s): ' + recipients);
-                    if (recipients.length != 0) {
-                        alert(recipients);
+                    if ($scope.recipients.length != 0) {
                         //message.recipients = recipients;
-                        $http.post('api/messages', { content: message.content, recipients: recipients})
+                        $http.post('api/messages', { content: message, recipients: recipients })
                             .success(function(data){
                                 $log.debug(data);
                                 $state.go('messages_list');

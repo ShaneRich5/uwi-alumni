@@ -48,7 +48,7 @@ class MessagesCtrl extends Controller
             return response()->json("no-recipient-present");
         }
 
-        $recipients = $request->only('recipients'); // useful even if content isn't set
+        $recipients = $request->only('recipients')['recipients']; // useful even if content param isn't set
 
         // if no content
         if (!($request->has('content'))) {
@@ -69,36 +69,32 @@ class MessagesCtrl extends Controller
         $error->recipients = [];
         $error->status = "success";
 
-        dd($content);
-
-        foreach ($recipients as $r) {
-            dd($r[0]);
-        }
-
         // navigate through each recipient submitted
         foreach ($recipients as $recipient) {
+            dd($recipient);
+
             // wraps recipient in User model
-            $foundRecipient = $this->user->find($recipient['id']);
-
-            // adds it to errors to tell the user which recipient did not get the message
-            if (null == $foundRecipient)
-            {
-                // recipient not found
-                $error->recipients[] = $recipient;
-                continue;
-            }
-
-            $message = $auth->messages()->save(new Message(['content' => $content]));
-            $conversation = $foundRecipient->conversations()->with('user_id', $auth->id);
-
-            // if the user has previous conversations with recipient
-            if (null == $conversation) {
-                $conversation = $this->conversation->create(new Conversation(['name' => 'default']));
-                $auth->conversations()->associate($conversation);
-                $recipient->conversations()->associate($conversation);
-            }
-
-            $conversation->messages()->associate($message);
+//            return response()->json($recipient);
+//            $foundRecipient = $this->user->find($recipient);
+//
+//            // adds it to errors to tell the user which recipient did not get the message
+//            if (null == $foundRecipient)
+//            {
+//                // recipient not found
+//                $error->recipients[] = $recipient;
+//                continue;
+//            }
+//
+//            $message = $auth->messages()->save(new Message(['content' => $content]));
+//            $conversation = $foundRecipient->conversations()->with('user_id', $auth->id);
+//
+//            // if the user has previous conversations with recipient
+//            if (null == $conversation) {
+//                $conversation = $this->conversation->create(new Conversation(['name' => 'default']));
+//                $auth->conversations()->associate($conversation);
+//                $recipient->conversations()->associate($conversation);
+//            }
+//            $conversation->messages()->associate($message);
         }
 
 

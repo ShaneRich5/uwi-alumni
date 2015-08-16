@@ -11,7 +11,7 @@ class Message extends Model
 
     protected $table = 'messages';
 
-    protected $fillable = ['content'];
+    protected $fillable = ['content', 'user_id', 'conversation_id'];
 
     public function conversation()
     {

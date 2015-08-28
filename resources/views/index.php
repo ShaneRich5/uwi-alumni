@@ -33,8 +33,8 @@
     <script type="text/javascript" src="app/uwiaa.js"></script>
 
     <!-- Services -->
-    <script type="text/javascript" src="app/services/post/post.js"></script>
-    <script type="text/javascript" src="app/services/comment/comment.js"></script>
+    <script type="text/javascript" src="app/services/models/User.js"></script>
+    <script type="text/javascript" src="app/services/models/Post.js"></script>
 
     <!-- Directives -->
     <script type="text/javascript" src="app/directives/navbar/navbar.js"></script>

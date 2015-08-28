@@ -5,11 +5,16 @@
 'use strict';
 
 (function(){
+    function ShowUserCtrl($scope, $state, User){
+        $scope.user = {firstName: "Shane", lastName: "Richards"};
+    }
+
     angular
         .module('uwiaa')
         .controller('ShowUserCtrl', [
-            function(){
-
-            }
+            '$scope',
+            '$state',
+            'User',
+            ShowUserCtrl
         ]);
 }());

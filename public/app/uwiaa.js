@@ -54,7 +54,7 @@
                         controller: 'ListUserCtrl'
                     })
                     .state('profiles', {
-                        url: '/users/:userId',
+                        url: '/users/:id',
                         templateUrl: templatePath('users/show'),
                         controller: 'ShowUserCtrl'
                     })
